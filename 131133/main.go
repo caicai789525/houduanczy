@@ -4,9 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"os"
 	"os/exec"
-	"path/filepath"
 
 	"github.com/gin-gonic/gin"
 )
