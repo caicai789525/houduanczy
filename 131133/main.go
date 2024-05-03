@@ -34,7 +34,6 @@ func main() {
 		cmd := exec.Command("python", "inference.py",
 			"--driven_audio", drivenAudioPath,
 			"--source_image", sourceImage,
-			"--result_dir", resultDir,
 			"--still",
 			"--preprocess", "full",
 			"--enhancer", "gfpgan",
